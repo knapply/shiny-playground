@@ -1,0 +1,12 @@
+name: tweetio
+title: tweetio
+username:
+account: bknapp
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1260825
+bundleId: 2453810
+url: https://bknapp.shinyapps.io/tweetio/
+when: 1569802495.16884
+asMultiple: FALSE
+asStatic: FALSE
