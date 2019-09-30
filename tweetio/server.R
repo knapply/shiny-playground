@@ -15,7 +15,8 @@ shinyServer(function(input, output) {
                     shinyjs::html("text", "")
                     
                     message("Parsing Tweets...")
-                    out1 <- tweetio::read_tweets(input$file1$datapath)
+                    out1 <- tweetio::read_tweets(input$file1$datapath,
+                                                 type = "nested_doc")
                     message("Done!")
                     
                     message(
