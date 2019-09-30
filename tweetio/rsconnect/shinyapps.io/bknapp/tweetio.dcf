@@ -5,8 +5,8 @@ account: bknapp
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1260825
-bundleId: 2453826
+bundleId: 2453849
 url: https://bknapp.shinyapps.io/tweetio/
-when: 1569803096.20696
+when: 1569803947.74853
 asMultiple: FALSE
 asStatic: FALSE

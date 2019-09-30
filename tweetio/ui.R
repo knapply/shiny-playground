@@ -16,7 +16,7 @@ shinyUI(fluidPage(
         )
         ,
         mainPanel(
-            shinyjs::useShinyjs(),
+            useShinyjs(),
             verbatimTextOutput("text")
         )
     )
