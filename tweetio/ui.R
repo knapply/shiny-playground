@@ -1,6 +1,6 @@
 library(shiny)
 
-options(shiny.maxRequestSize = 200 * 1024^2)
+options(shiny.maxRequestSize = 300 * 1024^2)
 
 shinyUI(fluidPage(
     titlePanel("{tweetio}"),
@@ -18,7 +18,6 @@ shinyUI(fluidPage(
         mainPanel(
             shinyjs::useShinyjs(),
             verbatimTextOutput("text")
-            )
         )
     )
-)
+))
