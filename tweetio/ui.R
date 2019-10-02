@@ -9,7 +9,7 @@ shinyUI(fluidPage(
         sidebarPanel(
             fileInput(inputId = "file1", label = "Upload File",
                       multiple = FALSE,
-                      accept = c(".json", ".jsonl", ".gz"))
+                      accept = c(".json", ".jsonl", ".gz", ".zip"))
             ,
             downloadButton(outputId = "dl_file1", 
                            label = "Download")
